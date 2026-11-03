@@ -1,0 +1,337 @@
+{
+  "metadata": {
+    "title": "Omran | Software Developer — Web Apps, APIs & Digital Products",
+    "description": "OA is the personal brand of Omran, a software developer based in Damascus, Syria, building modern web applications, APIs, and digital products — from idea to launch."
+  },
+  "hero": {
+    "eyebrow": "Software Developer | Based in Damascus, Syria",
+    "title": "React.js Developer Portfolio",
+    "description": "Building modern, scalable web applications with React, JavaScript, and cutting-edge technologies. Transforming ideas into exceptional digital experiences.",
+    "primaryCta": "Get in Touch",
+    "secondaryCta": "View Projects",
+    "visualLabel": "BASED IN DAMASCUS, SYRIA",
+    "imageAlt": "A digital product built by Omran",
+    "stats": [
+      { "value": "5+", "label": "Years Experience" },
+      { "value": "20+", "label": "Projects Completed" },
+      { "value": "15+", "label": "Technologies" },
+      { "value": "24h", "label": "Avg. Response Time" }
+    ],
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "50+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "15+",
+        "label": "Technologies"
+      },
+      {
+        "value": "98%",
+        "label": "Client Satisfaction"
+      }
+    ]
+  },
+  "trustBar": {
+    "items": [
+      { "icon": "wrench", "label": "Full-stack development: frontend, backend & deployment" },
+      { "icon": "pin", "label": "Based in Damascus, Syria" },
+      { "icon": "layers", "label": "Web apps, APIs, dashboards & e-commerce" },
+      { "icon": "receipt", "label": "Clear scope, honest estimates, regular updates" }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "primaryCta": "Let's Work Together",
+    "points": [
+      {
+        "title": "Problem-first mindset",
+        "description": "I start from the problem you're solving — not the trendiest framework — so the product actually serves its goal."
+      },
+      {
+        "title": "End-to-end delivery",
+        "description": "Frontend, backend, database, and deployment — one person who owns the whole build, no hand-offs."
+      },
+      {
+        "title": "Performance & SEO",
+        "description": "Fast pages, clean markup, and technical SEO baked in from day one — not bolted on later."
+      },
+      {
+        "title": "Built to maintain",
+        "description": "Readable code, typed contracts, and docs where they matter — easy for you or your team to extend."
+      }
+    ],
+    "heading": {
+      "title": "A developer who owns the outcome, not just the code",
+      "description": "I build digital products the way I'd want them built for me: understood first, scoped honestly, shipped working. Whether it's a marketing site, a SaaS dashboard, or a custom internal tool — I take it from idea to a product people actually use."
+    },
+    "imageAlt": "Omran's development work",
+    "imageCaption": "Code that ships",
+    "experienceYears": "5+",
+    "experienceLabel": "years building"
+  },
+  "services": {
+    "eyebrow": "What I Do",
+    "title": "From database to pixel — one developer, full coverage",
+    "description": "Everything you need to launch a web product, handled by a single developer who understands the whole stack.",
+    "sectionCta": "See My Projects",
+    "cards": [
+      {
+        "number": "01",
+        "icon": "pulse",
+        "title": "Web Applications",
+        "body": "Fast, responsive web apps built with React and Next.js — designed to convert visitors into users.",
+        "cta": "See Projects"
+      },
+      {
+        "number": "02",
+        "icon": "tool",
+        "title": "APIs & Backends",
+        "body": "Reliable APIs, databases, and integrations — the engine behind your product, built to scale.",
+        "cta": "See Projects"
+      },
+      {
+        "number": "03",
+        "icon": "gauge",
+        "title": "E-Commerce",
+        "body": "Online stores and checkout flows that are fast, trustworthy, and ready to sell.",
+        "cta": "See Projects"
+      },
+      {
+        "number": "04",
+        "icon": "mopar",
+        "title": "UI Implementation",
+        "body": "Pixel-accurate interfaces with Tailwind — from design files to production-ready components.",
+        "cta": "See Projects"
+      }
+    ]
+  },
+  "stack": {
+    "eyebrow": "Tech Stack",
+    "title": "The tools I build with",
+    "intro": "I pick technology for the job — not the other way around. This is the stack I reach for most, and where each piece earns its place.",
+    "points": [
+      {
+        "title": "React & Next.js",
+        "body": "My main tools for building fast, SEO-friendly interfaces — from landing pages to complex app shells."
+      },
+      {
+        "title": "TypeScript",
+        "body": "Typed end-to-end so bugs get caught at build time, not in production."
+      },
+      {
+        "title": "Node.js & APIs",
+        "body": "REST APIs, integrations, auth, and server logic that hold up under real usage."
+      },
+      {
+        "title": "Databases",
+        "body": "PostgreSQL and Prisma for data models that stay clean as the product grows."
+      },
+      {
+        "title": "UI & Tailwind",
+        "body": "Design systems and responsive interfaces that look right on every screen."
+      },
+      {
+        "title": "Performance & SEO",
+        "body": "Core Web Vitals, caching, and technical SEO treated as features — not afterthoughts."
+      },
+      {
+        "title": "DevOps basics",
+        "body": "Git workflows, CI, and deployments on Vercel or your own infrastructure."
+      },
+      {
+        "title": "Need something built?",
+        "body": "Tell me about your project and I'll suggest the right approach for it.",
+        "cta": "Chat on WhatsApp"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "HOW I WORK",
+    "stepLabel": "STEP {number}",
+    "title": "From idea to shipped product",
+    "intro": "A clear process for every project — so you always know what's happening, what's next, and when it ships.",
+    "cta": "Start by telling me about your project",
+    "ctaNote": "I usually reply within one working day",
+    "steps": [
+      {
+        "title": "Understand",
+        "body": "A focused chat about your goals, users, and what success looks like."
+      },
+      {
+        "title": "Scope",
+        "body": "Requirements turned into a clear plan with priorities, milestones, and honest estimates."
+      },
+      {
+        "title": "Design & build",
+        "body": "Interfaces and systems built in short cycles — you see progress early and often."
+      },
+      {
+        "title": "Test & polish",
+        "body": "Tested on real devices and data, tuned for speed, and checked against the original goals."
+      },
+      {
+        "title": "Launch & support",
+        "body": "A clean handover to production — plus follow-up fixes, improvements, and guidance."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Selected projects",
+    "intro": "A sample of the products I've built — web apps, stores, dashboards, and internal tools, each with the stack behind it.",
+    "stackLabel": "Stack",
+    "viewAll": "See more on GitHub",
+    "viewProject": "View",
+    "similarCta": "Want something similar? Let's talk",
+    "filters": ["All", "Web Apps", "E-Commerce", "Dashboards", "Tools"],
+    "items": [
+      {
+        "title": "SaaS analytics dashboard",
+        "stack": "Next.js · TypeScript · PostgreSQL",
+        "category": "Dashboards",
+        "image": "software"
+      },
+      {
+        "title": "E-commerce storefront",
+        "stack": "Next.js · Tailwind · Payments",
+        "category": "E-Commerce",
+        "image": "store"
+      },
+      {
+        "title": "Marketing site & CMS",
+        "stack": "Next.js · Headless CMS · SEO",
+        "category": "Web Apps",
+        "image": "web"
+      },
+      {
+        "title": "Booking & scheduling platform",
+        "stack": "React · Node.js · REST API",
+        "category": "Web Apps",
+        "image": "app"
+      },
+      {
+        "title": "Internal admin tools",
+        "stack": "Next.js · Prisma · Auth",
+        "category": "Tools",
+        "image": "software"
+      },
+      {
+        "title": "AI automation helper",
+        "stack": "Node.js · LLM APIs · Queues",
+        "category": "Tools",
+        "image": "ai"
+      }
+    ]
+  },
+  "tools": {
+    "eyebrow": "Tools & Technologies",
+    "title": "The stack behind my work",
+    "items": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma",
+      "REST APIs",
+      "GraphQL",
+      "Docker",
+      "Git",
+      "Vercel"
+    ]
+  },
+  "stats": {
+    "eyebrow": "By the numbers",
+    "title": "Work that speaks for itself",
+    "description": "A quick snapshot of where I am and how I work.",
+    "items": [
+      {
+        "value": "5+",
+        "title": "Years",
+        "label": "building software products"
+      },
+      {
+        "value": "20+",
+        "title": "Projects",
+        "label": "designed, built, and shipped"
+      },
+      {
+        "value": "15+",
+        "title": "Technologies",
+        "label": "across the full web stack"
+      },
+      {
+        "value": "24h",
+        "title": "Response time",
+        "label": "average reply to new inquiries"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "cta": "Ask me on WhatsApp",
+    "items": [
+      {
+        "question": "Are you available for new projects?",
+        "answer": "Yes — I'm currently open for freelance projects and collaborations. Send me a message and I'll reply within a day with availability and next steps."
+      },
+      {
+        "question": "What kind of projects do you take on?",
+        "answer": "Web applications, marketing sites, e-commerce stores, dashboards, APIs, and internal tools — anything that lives on the web and needs to work well."
+      },
+      {
+        "question": "How does a typical project start?",
+        "answer": "We start with a short call or chat to understand your goals. Then I send a clear scope with milestones and estimates before any code is written."
+      },
+      {
+        "question": "Do you work with existing codebases?",
+        "answer": "Absolutely — I can audit, fix, extend, or gradually modernize existing projects. Clean handovers and readable code are part of the job."
+      },
+      {
+        "question": "Can you handle design as well?",
+        "answer": "I can turn your designs into pixel-accurate interfaces, or design clean functional UIs myself for early-stage products and internal tools."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Let's work together",
+    "description": "Have a project in mind? Let's talk about how to bring it to life. I'm open to new opportunities and collaborations.",
+    "infoTitle": "Let's build something",
+    "infoHeading": "Contact information",
+    "infoDescription": "Reach out through the form or connect with me on social media. I typically reply within 24 hours.",
+    "socialTitle": "Follow me",
+    "whatsappCta": "Chat on WhatsApp",
+    "items": [
+      {
+        "kind": "email",
+        "title": "Email",
+        "value": "om.alrbedan100@gmail.com",
+        "note": "Best for project details"
+      },
+      {
+        "kind": "phone",
+        "title": "WhatsApp",
+        "value": "+963988638009",
+        "note": "Fastest way to reach me"
+      },
+      {
+        "kind": "location",
+        "title": "Location",
+        "value": "Damascus, Syria",
+        "note": "Based in Damascus"
+      },
+      {
+        "kind": "hours",
+        "title": "Availability",
+        "value": "Open for projects",
+        "note": "Replies within ~24 hours"
+      }
+    ]
+  }
+}

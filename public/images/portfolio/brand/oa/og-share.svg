@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#05090C"/>
+      <stop offset="1" stop-color="#09131B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#80FF69"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="translate(1050 120) rotate(135) scale(700)">
+      <stop stop-color="#80FF69" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#80FF69" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect width="1200" height="630" fill="url(#ambient)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <path d="M0 0h10v630H0z" fill="url(#accent)"/>
+
+  <svg x="92" y="150" width="330" height="330" viewBox="0 0 512 512">
+    <rect width="512" height="512" rx="124" fill="#05090C"/>
+    <rect x="2" y="2" width="508" height="508" rx="122" fill="none" stroke="#80FF69" stroke-opacity=".24" stroke-width="4"/>
+    <path
+      d="M218 119c35 27 50 82 45 147-6 75-42 126-94 119-55-7-83-70-75-147 8-75 50-130 104-126 22 2 40 13 52 31"
+      fill="none"
+      stroke="#F4F7F5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="18"
+    />
+    <path
+      d="M249 383c36-93 79-208 111-266 8-15 19-10 22 9 12 87 11 185 33 245 7 19 23 14 38-4m-158-87c37-25 75-28 112-11"
+      fill="none"
+      stroke="url(#accent)"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="18"
+    />
+    <circle cx="432" cy="94" r="8" fill="#3B82F6"/>
+  </svg>
+
+  <path d="M490 132v366" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="2"/>
+  <text x="550" y="221" fill="#80FF69" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="7">OA / PORTFOLIO</text>
+  <text x="546" y="330" fill="#F4F7F5" font-family="Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-2">Omran</text>
+  <text x="552" y="383" fill="#AEBBC0" font-family="Arial, sans-serif" font-size="27" font-weight="500" letter-spacing="3">SOFTWARE DEVELOPER</text>
+  <path d="M552 430h450" stroke="#FFFFFF" stroke-opacity=".16" stroke-width="2"/>
+  <text x="552" y="481" fill="#AEBBC0" font-family="Arial, sans-serif" font-size="22">omran.dev</text>
+  <circle cx="1014" cy="477" r="5" fill="#80FF69"/>
+</svg>

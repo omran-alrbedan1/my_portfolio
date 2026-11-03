@@ -1,0 +1,114 @@
+{
+  "brand": {
+    "name": "Omran",
+    "tagline": "Software Developer",
+    "homeLabel": "Go to Omran's homepage"
+  },
+  "navigation": {
+    "ariaLabel": "Main navigation",
+    "mobileAriaLabel": "Mobile navigation",
+    "home": "Home",
+    "about": "About",
+    "services": "What I Do",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "header": {
+    "bookNow": "Let's Talk"
+  },
+  "mobileMenu": {
+    "openLabel": "Open menu",
+    "closeLabel": "Close menu",
+    "menuLabel": "Menu"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content"
+  },
+  "seo": {
+    "classification": "Software developer portfolio",
+    "ogImageAlt": "OA monogram brand card for Omran, software developer",
+    "keywords": {
+      "default": [
+        "Omran",
+        "software developer",
+        "web developer",
+        "full-stack developer",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "portfolio"
+      ],
+      "routes": {
+        "home": [
+          "hire developer",
+          "web applications",
+          "API development",
+          "freelance developer"
+        ]
+      }
+    },
+    "schema": {
+      "websiteDescription": "Personal portfolio of Omran — a software developer building web applications, APIs, and digital products.",
+      "personDescription": "Omran — software developer specializing in modern web applications, APIs, and end-to-end product delivery."
+    }
+  },
+  "footer": {
+    "description": "Software developer building fast, reliable web products - from the first idea to launch and beyond.",
+    "quickLinksTitle": "Quick Links",
+    "contactTitle": "Get in Touch",
+    "socialTitle": "Connect With Me",
+    "socialDescription": "Let's connect and create something amazing together.",
+    "social": {
+      "items": [
+        {
+          "kind": "github",
+          "href": "https://github.com/omran",
+          "label": "Omran on GitHub"
+        },
+        {
+          "kind": "linkedin",
+          "href": "https://www.linkedin.com/in/omran",
+          "label": "Omran on LinkedIn"
+        },
+        {
+          "kind": "x",
+          "href": "https://x.com/omran",
+          "label": "Omran on X"
+        }
+      ]
+    },
+    "contact": {
+      "items": [
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "om.alrbedan100@gmail.com",
+          "href": "mailto:om.alrbedan100@gmail.com"
+        },
+        {
+          "kind": "phone",
+          "label": "WhatsApp",
+          "value": "+963988638009",
+          "href": "tel:+963988638009"
+        },
+        {
+          "kind": "location",
+          "label": "Location",
+          "value": "Damascus, Syria"
+        },
+        {
+          "kind": "hours",
+          "label": "Availability",
+          "value": "Open for new projects"
+        }
+      ]
+    },
+    "copyright": "© Omran. All rights reserved.",
+    "rightsReserved": "All rights reserved.",
+    "builtWithPrefix": "Built with",
+    "builtWith": "using React & Tailwind CSS"
+  },
+  "floatingAction": {
+    "label": "Contact Me"
+  }
+}

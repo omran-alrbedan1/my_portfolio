@@ -1,0 +1,32 @@
+{
+  "errors": {
+    "required": "This field is required.",
+    "invalid_email": "Enter a valid email address.",
+    "min_name": "Please enter at least 2 characters.",
+    "min_message": "Please enter at least 10 characters.",
+    "duplicate_submission": "Please wait before sending the same message again.",
+    "server_error": "Something went wrong. Please try again."
+  },
+  "contactForm": {
+    "eyebrow": "Send Me a Message",
+    "title": "Send Me a Message",
+    "description": "Fill in the form below and I'll get back to you shortly.",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "email": "name@example.com",
+      "message": "Tell me about your project or idea"
+    },
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "success": "Your message has been sent successfully.",
+    "error": "We could not send your message."
+  },
+  "api": {
+    "contactSuccess": "Your message has been received successfully."
+  }
+}

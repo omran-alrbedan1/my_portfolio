@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Omran Alrbedan — Resume</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #111318;
+    --muted: #555b66;
+    --faint: #8a919e;
+    --line: #d9dde3;
+    --accent: #1a56db;
+  }
+
+  html, body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    font-size: 10.5pt;
+    line-height: 1.45;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .page {
+    width: 210mm;
+    height: 297mm;
+    padding: 14mm 14mm 16mm;
+    position: relative;
+    overflow: hidden;
+  }
+  .page-1 { page-break-after: always; }
+
+  /* ---------- header (page 1 only) ---------- */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 5mm;
+    margin-bottom: 7mm;
+  }
+  .header h1 {
+    font-size: 24pt;
+    letter-spacing: 0.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .header .role {
+    font-size: 11pt;
+    letter-spacing: 2.5pt;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 1.5mm;
+  }
+  .header .monogram {
+    font-size: 20pt;
+    font-weight: 700;
+    color: var(--faint);
+    letter-spacing: 2pt;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2mm 6mm;
+    font-size: 9.5pt;
+    color: var(--muted);
+    margin-top: 3mm;
+  }
+  .contact a { color: var(--muted); }
+
+  /* ---------- layout ---------- */
+  .cols { display: grid; grid-template-columns: 58mm 1fr; gap: 8mm; }
+
+  section { margin-bottom: 7mm; }
+  h2 {
+    font-size: 10pt;
+    letter-spacing: 3pt;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 1.5mm;
+    margin-bottom: 3.5mm;
+  }
+
+  .side p, .side li { font-size: 9.5pt; color: var(--muted); }
+  .side .group { margin-bottom: 3mm; }
+  .side .group h3 { font-size: 9.5pt; font-weight: 600; color: var(--ink); margin-bottom: 0.5mm; }
+
+  /* ---------- items ---------- */
+  .item { margin-bottom: 4.5mm; }
+  .item h3 {
+    font-size: 10.5pt;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 4mm;
+  }
+  .item h3 .tag { font-size: 8.5pt; font-weight: 500; color: var(--faint); white-space: nowrap; }
+  .item p { font-size: 9.5pt; color: var(--muted); margin-top: 0.8mm; }
+  .item .links { margin-top: 1mm; font-size: 8.5pt; display: flex; gap: 4mm; }
+  .item .links a { font-weight: 600; }
+
+  /* ---------- page 2 ---------- */
+  .page2-title {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 4mm;
+    margin-bottom: 7mm;
+  }
+  .page2-title h1 {
+    font-size: 15pt;
+    letter-spacing: 3pt;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .page2-title p { font-size: 9pt; color: var(--muted); margin-top: 1mm; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm 8mm; }
+  .grid .item { margin-bottom: 0; }
+
+  .folio {
+    position: absolute;
+    bottom: 8mm;
+    right: 14mm;
+    font-size: 8.5pt;
+    color: var(--faint);
+    letter-spacing: 1pt;
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= PAGE 1 ================= -->
+<div class="page page-1">
+
+  <div class="header">
+    <div>
+      <h1>Omran Alrbedan</h1>
+      <p class="role">Software Developer</p>
+      <div class="contact">
+        <a href="mailto:om.alrbedan100@gmail.com">om.alrbedan100@gmail.com</a>
+        <a href="tel:+963988638009">+963 988 638 009</a>
+        <span>Damascus, Syria</span>
+        <a href="https://omran.dev">omran.dev</a>
+        <a href="https://github.com/omran-alrbedan1">github.com/omran-alrbedan1</a>
+      </div>
+    </div>
+    <div class="monogram">OA</div>
+  </div>
+
+  <div class="cols">
+    <div class="side">
+      <section>
+        <h2>Profile</h2>
+        <p>Software developer and Informatics Engineering student at the University of Damascus. Builds multilingual web applications, admin dashboards, and mobile apps.</p>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="group">
+          <h3>Informatics Engineering</h3>
+          <p>University of Damascus — In progress</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Technical Skills</h2>
+        <div class="group">
+          <h3>Frontend &amp; Mobile</h3>
+          <p>React.js, Next.js, JavaScript, TypeScript, HTML, CSS, Tailwind CSS, Redux Toolkit, React Native, GSAP, Framer Motion</p>
+        </div>
+        <div class="group">
+          <h3>Backend</h3>
+          <p>NestJS, Express.js, REST API, Prisma, PostgreSQL, Redis, JWT</p>
+        </div>
+        <div class="group">
+          <h3>Tools</h3>
+          <p>Git, GitLab, GitHub, Postman, npm, Vitest, Vercel, Vite, Responsive Design</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <p>Arabic — English</p>
+      </section>
+    </div>
+
+    <div class="main">
+      <section>
+        <h2>Professional Experience</h2>
+        <div class="item">
+          <h3>Web / Front-End Developer <span class="tag">YBA Company</span></h3>
+          <p>Developed Next.js web applications for training-management systems. Delivered web projects in a structured engineering environment and collaborated through client communication and Agile workflows.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Selected Projects</h2>
+
+        <div class="item">
+          <h3>CarePulse <span class="tag">Healthcare Management</span></h3>
+          <p>Next.js appointment-registration flow for patients and an administration view for managing appointments.</p>
+          <div class="links">
+            <a href="https://carepulse-jiub.vercel.app/">Live &#8599;</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>Beyond Gluten <span class="tag">Website</span></h3>
+          <p>Bilingual gluten-free discovery platform with venue listings, certified products, and a medication scanner.</p>
+          <div class="links">
+            <a href="https://beyond-gluten.vercel.app/en">Live &#8599;</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>LiTaskunu <span class="tag">Matrimonial Platform</span></h3>
+          <p>English/Arabic sign-in, identity verification, and guardian-approved request flows.</p>
+          <div class="links">
+            <a href="https://litaskunu.com/en">Live &#8599;</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>Abu Sara Jewelry <span class="tag">Brand Website</span></h3>
+          <p>Bilingual jewelry catalog with product filters, custom-design requests, and SEO metadata.</p>
+          <div class="links">
+            <a href="https://abu-sara.vercel.app/">Live &#8599;</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>eSIM <span class="tag">Travel-data Website</span></h3>
+          <p>Destination-based package browsing, device-support details, installation guides, and partner signup.</p>
+          <div class="links">
+            <a href="https://esim-wine.vercel.app/en">Live &#8599;</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>Wise Zone <span class="tag">Training Website</span></h3>
+          <p>English/Arabic services, course, and training-plan pages with API-served content.</p>
+          <div class="links">
+            <a href="https://www.wisezone-jo.com/en">Live &#8599;</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <h3>Workey <span class="tag">Graduation Project</span></h3>
+          <p>Smart recruitment web platform deployed on Vercel.</p>
+          <div class="links">
+            <a href="https://workey-ten.vercel.app/">Live &#8599;</a>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+  <div class="folio">01 / 02</div>
+</div>
+
+<!-- ================= PAGE 2 ================= -->
+<div class="page">
+
+  <div class="page2-title">
+    <h1>Project Portfolio</h1>
+    <p>Omran Alrbedan — more projects, dashboards, and mobile apps</p>
+  </div>
+
+  <div class="grid">
+    <div class="item">
+      <h3>Tigre <span class="tag">Food Delivery Landing Page</span></h3>
+      <p>Bilingual landing page with app-store links and restaurant partner information.</p>
+      <div class="links">
+        <a href="https://tigre-blush.vercel.app/">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>Adonis Pharma <span class="tag">Corporate Website</span></h3>
+      <p>Pharmaceutical distribution and logistics platform covering services, products, careers, and industry news.</p>
+    </div>
+
+    <div class="item">
+      <h3>Red Power Garage <span class="tag">Website</span></h3>
+      <p>Arabic-first garage site covering services, offers, gallery, reviews, and booking/contact.</p>
+      <div class="links">
+        <a href="https://red-power.vercel.app/">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>FutXTech <span class="tag">Company Website</span></h3>
+      <p>Software-company site with services, project portfolio, and consultation requests using API-served content.</p>
+      <div class="links">
+        <a href="https://futxtech.com">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>Restate <span class="tag">React Native App</span></h3>
+      <p>React Native mobile application.</p>
+    </div>
+
+    <div class="item">
+      <h3>FoodApp <span class="tag">React Native App</span></h3>
+      <p>React Native food application.</p>
+    </div>
+
+    <div class="item">
+      <h3>LiTaskunu Dashboard</h3>
+      <p>Administration panel for the LiTaskunu matrimonial platform.</p>
+      <div class="links">
+        <a href="https://litaskunu.com/en/admin">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>Beyond Gluten Dashboard</h3>
+      <p>Administration panel for the Beyond Gluten platform.</p>
+      <div class="links">
+        <a href="https://gluten.futxtech.com">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>Optimal <span class="tag">Academy Frontend</span></h3>
+      <p>Frontend project including an Arabic training-plan page.</p>
+    </div>
+
+    <div class="item">
+      <h3>Bonitto Aesthetic <span class="tag">Corporate Website</span></h3>
+      <p>Hebrew/English right-to-left product site with catalog, events, research, and distributor pages.</p>
+      <div class="links">
+        <a href="https://bonitto-rose.vercel.app/">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>Net eSIM Agent Dashboard</h3>
+      <p>Agent-side dashboard for the Net eSIM service.</p>
+      <div class="links">
+        <a href="https://dev.net-esim.futxtech.com/agent">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>Red Power Dashboard</h3>
+      <p>Administration dashboard for the Red Power Garage website.</p>
+    </div>
+
+    <div class="item">
+      <h3>Nexa Dashboard</h3>
+      <p>Administration panel for the Nexa platform.</p>
+      <div class="links">
+        <a href="https://nexalogist.com/">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>WAF <span class="tag">Business Services Website</span></h3>
+      <p>Arabic/English site for web, app, and digital-marketing services with portfolio and WhatsApp contact.</p>
+      <div class="links">
+        <a href="https://waf-nine.vercel.app/ar">Live &#8599;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <h3>Balagh <span class="tag">React Native App</span></h3>
+      <p>React Native mobile application.</p>
+    </div>
+
+    <div class="item">
+      <h3>GLogo Dashboard <span class="tag">Salon Booking</span></h3>
+      <p>Next.js admin panel for users, salons, appointments, services, products, offers, banners, and app versions.</p>
+      <div class="links">
+        <a href="https://dashboard.glogoltd.com">Live &#8599;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="folio">02 / 02</div>
+</div>
+
+</body>
+</html>
